@@ -38,3 +38,27 @@ sudo apt upgrade
 ### Install Basic Tools
 
 1. Open Terminal
+
+2. Input these commands 
+
+```bash
+sudo apt install build-essential cmake git curl wget vim tree htop net-tools unzip
+```
+
+It includes gcc  g++  make  cmake  git
+
+### Install VS Code
+
+1. Open Terminal
+
+2. Input these commands
+
+```bash
+sudo snap install code --classic
+```
+
+### Install ROS2
+
+1. Open Terminal
+
+2. Input these commands
