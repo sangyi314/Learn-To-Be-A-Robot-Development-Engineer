@@ -57,6 +57,32 @@ It includes gcc  g++  make  cmake  git
 sudo snap install code --classic
 ```
 
+### Install C/C++ CMake GBD
+
+1. Open Terminal
+
+2. Input these commands
+
+```bash
+sudo apt install -y build-essential
+sudo apt install -y cmake
+sudo apt install -y gdb
+```
+
+### Install Python pip
+
+1. Open Terminal
+
+2. Input these commands
+
+```bash
+sudo apt install -y python3-pip
+sudo apt install -y python3-venv
+pip3 install numpy matplotlib pandas scipy
+pip3 install opencv-python
+pip3 install torch torchvision
+```
+
 ### Install ROS2
 
 1. Open Terminal
@@ -78,3 +104,26 @@ sudo apt install -y ros-jazzy-desktop
 echo "source /opt/ros/jazzy/setup.bash" >> ~/.bashrc
 
 source ~/.bashrc
+
+sudo rosdep init
+
+rosdep update
+
+mkdir -p ~/ros2_ws/src
+
+cd ~/ros2_ws
+
+colcon build
+
+echo "source ~/ros2_ws/install/setup.bash" >> ~/.bashrc
+
+source ~/.bashrc
+```
+
+### Install Git
+
+1. Open Terminal
+
+2. Input these commands
+
+```bash
