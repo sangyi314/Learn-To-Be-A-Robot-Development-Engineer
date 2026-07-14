@@ -14,9 +14,9 @@ You need to download and install some tools and softwares before you start worki
 
 ### Install VMware tools
 
-1.Open Terminal
+1. Open Terminal
 
-2.Input these commands
+2. Input these commands
 
 ```bash
 sudo apt update
@@ -26,9 +26,9 @@ sudo reboot
 
 ### Update Ubuntu
 
-1.Open Terminal
+1. Open Terminal
 
-2.Input these commands
+2. Input these commands
 
 ```bash
 sudo apt update
