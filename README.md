@@ -34,3 +34,7 @@ sudo reboot
 sudo apt update
 sudo apt upgrade
 ```
+
+### Install Basic Tools
+
+1. Open Terminal
