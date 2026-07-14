@@ -62,3 +62,19 @@ sudo snap install code --classic
 1. Open Terminal
 
 2. Input these commands
+
+```bash
+sudo apt install -y software-properties-common curl gnupg2 lsb-release
+
+sudo add-apt-repository universe
+
+sudo curl -sSL https://raw.githubusercontent.com/ros/rosdistro/master/ros.key \
+-o /usr/share/keyrings/ros-archive-keyring.gpg
+
+sudo apt update
+
+sudo apt install -y ros-jazzy-desktop
+
+echo "source /opt/ros/jazzy/setup.bash" >> ~/.bashrc
+
+source ~/.bashrc
