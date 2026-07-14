@@ -78,9 +78,14 @@ sudo apt install -y gdb
 ```bash
 sudo apt install -y python3-pip
 sudo apt install -y python3-venv
-pip3 install numpy matplotlib pandas scipy
-pip3 install opencv-python
-pip3 install torch torchvision
+
+sudo apt install -y \
+python3-numpy \
+python3-matplotlib \
+python3-pandas \
+python3-scipy
+
+sudo apt install -y python3-opencv
 ```
 
 ### Install ROS2
@@ -105,6 +110,12 @@ echo "source /opt/ros/jazzy/setup.bash" >> ~/.bashrc
 
 source ~/.bashrc
 
+sudo apt install -y \
+python3-colcon-common-extensions \
+python3-rosdep \
+python3-vcstool \
+python3-argcomplete
+
 sudo rosdep init
 
 rosdep update
@@ -127,3 +138,26 @@ source ~/.bashrc
 2. Input these commands
 
 ```bash
+sudo apt install -y git
+git config --global user.name "your-GitHub-user-name"
+git config --global user.email "your-email"
+git config --list
+```
+
+### Test
+
+You can test if the softwares are installed
+
+Input these commands
+
+```bash
+gcc --version
+g++ --version
+cmake --version
+python3 --version
+pip3 --version
+git --version
+ros2 --help
+```
+
+## Summary
