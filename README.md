@@ -24,4 +24,13 @@ sudo apt install open-vm-tools open-vm-tools-desktop
 sudo reboot
 ```
 
-### 
+### Update Ubuntu
+
+1.Open Terminal
+
+2.Input these commands
+
+```bash
+sudo apt update
+sudo apt upgrade
+```
