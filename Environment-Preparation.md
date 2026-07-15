@@ -161,3 +161,5 @@ ros2 --help
 ```
 
 ## Summary
+
+Now you have the working environment.
